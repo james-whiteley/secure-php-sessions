@@ -1,0 +1,10 @@
+.vagrant
+Vagrantfile
+vendor
+vendor/*
+composer.json
+composer.lock
+index.php
+nginx-configs
+nginx-configs/*
+.idea
