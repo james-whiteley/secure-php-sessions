@@ -12,10 +12,20 @@ Secure and scalable sessions in PHP and Redis, based on this SitePoint [article]
 
 Change directory to the secure-php-sessions directory (the location where you checked out the project to), then run the following commands:
 
-NOTE: The setup script only supports Ubuntu, CentOS and Fedora operating systems. Alternatively, you can install Redis manually by following the installation instructions [here](http://redis.io/topics/quickstart) and install Predis using [Composer](https://getcomposer.org).
+**NOTE:** The setup script only supports Ubuntu, CentOS and Fedora operating systems. Alternatively, you can install Redis manually by following the installation instructions [here](http://redis.io/topics/quickstart) and install Predis using [Composer](https://getcomposer.org).
 
 ```
 cd setup
 sudo chmod a+x setup.sh
 sudo ./setup.sh
+```
+
+## Usage
+
+After setup.sh has finished, you are now ready to include the **sessions.php** file
+
+e.g.
+```
+<?php
+require('sessions/sessions.php');
 ```
